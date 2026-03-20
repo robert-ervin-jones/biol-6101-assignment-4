@@ -1,0 +1,57 @@
+# Snakemake
+.snakemake/
+*.snakemake_timestamp
+
+# Results and intermediate files
+results/
+logs/
+
+# Data files (too large for git)
+data/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Conda environments created by Snakemake (cached)
+.snakemake/conda/
+
+# Local conda/virtual environments (if created outside workflow)
+/env/
+/venv/
+/envs/
+
+# BUT DO commit workflow/envs/*.yaml files - they are required!
+!workflow/envs/
+
+# Benchmark and timing files
+benchmarks/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/

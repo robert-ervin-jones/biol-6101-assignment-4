@@ -1,0 +1,17 @@
+"""
+Snakemake workflow for de novo genome assembly
+Assignment 4 - BIOL-6101
+
+Build your workflow here by adding rules for:
+1. Quality control of raw reads
+2. Read preprocessing/filtering (if needed)
+3. Genome assembly
+4. Assembly quality assessment (QUAST, BUSCO)
+5. Visualization and reporting
+
+Refer to the README.md for detailed instructions and examples.
+"""
+
+# ============================================================================
+# Your rules go here
+# ============================================================================
