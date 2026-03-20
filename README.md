@@ -99,10 +99,10 @@ fasterq-dump --gzip SRR_ID -O data/raw_reads/
 For testing your workflow, consider these smaller genomes:
 - **Bacteria** (~1-10 Mb): E. coli, Salmonella, Mycobacterium
 - **Yeast** (~12 Mb): Saccharomyces cerevisiae
-- **Small eukaryotes** (~10-50 Mb): Plasmodium, Giardia
-- **Viral genomes** (<1 Mb): Various phages or viruses
 
-**Important:** Start with a smaller genome to test your workflow before scaling up!
+You may also use a subset of reads from a larger genome for testing purposes.
+
+**Important:** Start with a smaller genome or subset to test your workflow before scaling up!
 
 ### Data Organization
 Organize your data as:
